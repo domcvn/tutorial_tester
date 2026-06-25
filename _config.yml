@@ -1,6 +1,12 @@
 title: Just the Docs Template
 description: A starter template for a Jeykll site using the Just the Docs theme!
-theme: just-the-docs
+
+# Use remote_theme so GitHub Pages fetches the theme at build time
+remote_theme: pmarsceill/just-the-docs
+
+# Ensure the remote-theme plugin is enabled
+plugins:
+  - jekyll-remote-theme
 
 url: https://just-the-docs.github.io
 
